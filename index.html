@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <title>Carta Café las Horas</title>
+</head>
+<body>
+    <!--Título-->
+    <h1>Carta</h1>
+
+    <hr>
+    <br>
+
+    <main>
+        <!--El menú-->
+        <section>
+            
+            <h2>Desayunos Tradicionales</h2>
+            <!--Lista oculta de desayuno-->
+            <details>
+                <summary>Ver</summary>
+            <!--Lista ordenada de los desayunos tradicionales-->
+            <ol>
+                <li><p class="prod">Churros. ¡Recién hechos! Y con azucar glass por encima.</p></li>
+                <li><p class="prod">Tostada de pan integral con pavo braseado, queso cremoso y tomate.</p></li>
+                <li><p class="prod">Bollería francesa de manteuqilla</p></li>
+                <li><p class="prod">Croissant o barrita a la plancha</p></li>
+            </ol>
+            </details>
+
+            
+            <h2>Desayunos especiales</h2>
+            <!--Lista oculta de desayuno-->
+            <details>
+                <summary>Ver</summary>
+            <!--Lista ordenada de los desayunos especiales-->
+            <ul>
+                <li><p class="prod">Croque monsieur.</p></li>
+                <li><p class="prod">Mollete con tomate y jamón ibérico de bellota.</p></li>
+                <li><p class="prod">Nuestras clasicas tortitas con nta y sirope.</p></li>
+                <li><p class="prod">Tortilla con salchicha, jamón o bacon, acompañados de patatas.</p></li>
+            </ul>
+            </details>
+        </section>
+        <hr>
+        <section>
+            <h2>Meriendas</h2>
+            <!--Lista desordenada con otra lista desordenada anidada. Abierta por defecto por la etiqueta details pe5ro ocultable-->
+            <details open>
+                <sumnmary>Contenido</sumnmary>
+            <ul>
+                <li>Desde las 17:00
+                    <ul>
+                        <li><p class="prod">Tortilla española y pan con tomate</p></li>
+                        <li><p class="prod">Croissant mixto gratinado con bechamel</p></li>
+                    </ul>
+                </li>
+            </ul>
+            <!--Lista ordenada con otra lista ordenada anidada-->
+            <ol>
+                <li>Desde las 15:00</li>
+                <li>Helados
+                    <ol>
+                        <li><p class="prod">Batidos de helados</p></li>
+                        <li><p class="prod">Bola de helados</p></li>
+                        <li><p class="prod">Sabores: Stracciatella, turrón, chocolate, vaenilla...</p></li>
+                    </ol>
+                </li>
+            </ol>
+            </details>
+            <hr>
+        </section>
+    </main>
+
+</body>
+</html>

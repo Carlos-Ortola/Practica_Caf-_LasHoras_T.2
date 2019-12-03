@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(250, 206, 112);
+}
+
+h1{
+    color: rgb(131, 44, 29);
+    text-align: center;
+}
+
+br{
+    clear: both;
+}
+
+p.prod{
+    color: rgb(219, 58, 0);
+}
+h2{
+    color: rgb(131, 44, 29);
+}
